@@ -54,7 +54,7 @@ body {
 button {
     user-select: none;
     margin: 5px;
-    font-size: 30px;
+    font-size: 10px;
     width: 55px;
     height: 55px;
     border-radius: 10px;
