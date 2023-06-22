@@ -79,7 +79,7 @@ buttons.forEach(button => {
                 result = '';
                 ans = 1;
             }
-            if (result == '0') {
+            if (result == '0' || result == '00') {
                 if (b !== '-' && b !== '*' && b !== '+' && b !== '/') {
                     result = '';
                 }
