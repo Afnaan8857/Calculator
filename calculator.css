@@ -74,8 +74,8 @@ button {
     box-shadow: 3px 3px 5px 1px rgb(107, 107, 107), -3px -3px 5px 2px rgb(255, 255, 255);
     transition:scale 0.5s;
 }
- button:hover{
-        scale:3;
+ button:active{
+        scale:0.7;
      
  }
 .input:focus{
