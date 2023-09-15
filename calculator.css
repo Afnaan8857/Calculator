@@ -72,10 +72,10 @@ button {
     cursor: pointer;
     background-color: rgb(239, 237, 290);
     box-shadow: 3px 3px 5px 1px rgb(107, 107, 107), -3px -3px 5px 2px rgb(255, 255, 255);
-    transition:transform 0.5s;
+    transition:scale 0.5s;
 }
  button:hover{
-        transform:scale(1);
+        scale:1;
      
  }
 .input:focus{
