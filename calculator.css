@@ -75,7 +75,7 @@ button {
     transition:scale 0.5s;
 }
  button:hover{
-        scale:1;
+        scale:3;
      
  }
 .input:focus{
