@@ -8,7 +8,7 @@ buttons.forEach(button => {
     button.addEventListener('click', (btn) => {
         b = btn.target.innerHTML;
         if (input.value == '') {
-            result = '';
+            result = '0';
         }
         
         if (b === '=') {
