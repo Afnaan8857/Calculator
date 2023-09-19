@@ -8,7 +8,7 @@ buttons.forEach(button => {
     button.addEventListener('click', (btn) => {
         b = btn.target.innerHTML;
         if (input.value == '') {
-            result = '0';
+            result = '';
         }
         
         if (b === '=') {
@@ -17,7 +17,7 @@ buttons.forEach(button => {
             }
             if(input.value === undefined || result === undefined)
             {
-                result = '';
+                result = '0';
             }
          else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
                 result = input.value;
