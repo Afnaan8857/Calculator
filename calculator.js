@@ -24,9 +24,11 @@ buttons.forEach(button => {
          }
               
                 result = eval(result);
+            if (result.includes('+') || result.includes('-') || result.includes('*') || result.includes('/')
+                {
                 ans = 0;
-            
             c = result;
+            }
         }
         else if (b == 'AC') {
             result = '';
