@@ -84,10 +84,6 @@ buttons.forEach(button => {
             result = result + b;
             c = result;
         }
-        if(result % 1 !== 0)
-        {
-            result = result.toFixed(3);
-        }
         input.value = result;
     });
 });
