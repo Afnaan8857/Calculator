@@ -5,8 +5,8 @@ let all = document.querySelectorAll('.btn');
 let buttons = Array.from(all);
 
 buttons.forEach(button => {
-    button.addEventListener('click', (btn) => {
-        b = btn.target.innerHTML;
+    button.addEventListener('click', () => {
+        b = button.innerHTML;
         if (input.value == '') {
             result = '';
         }
