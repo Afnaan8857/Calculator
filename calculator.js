@@ -19,7 +19,7 @@ buttons.forEach(button => {
             {
                 result = '';
             }
-            if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
+          else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
                 result = input.value;
                 }
               
