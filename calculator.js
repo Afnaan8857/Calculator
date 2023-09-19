@@ -16,13 +16,11 @@ buttons.forEach(button => {
                 result = result.substring(0, result.length - 1);
             }
 
-            if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
-                result = c;
-            }
-            else {
+            
+            
                 result = eval(result);
                 ans = 0;
-            }
+            
             c = result;
         }
         else if (b == 'AC') {
