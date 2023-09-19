@@ -13,6 +13,8 @@ buttons.forEach(button => {
         
         if (b === '=') {
             if (result[result.length - 1] == '/' || result[result.length - 1] == '*' || result[result.length - 1] == '-' || result[result.length - 1] == '+') {
+                if (result.includes('+') || result.includes('-') || result.includes('*') || result.includes('/')) {
+                }
                 result = result.substring(0, result.length - 1);
             }
 
