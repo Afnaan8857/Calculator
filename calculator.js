@@ -15,13 +15,13 @@ buttons.forEach(button => {
             if (result[result.length - 1] == '/' || result[result.length - 1] == '*' || result[result.length - 1] == '-' || result[result.length - 1] == '+') {
                 result = result.substring(0, result.length - 1);
             }
-            if(input.value == undefined)
+            if(input.value === undefined || result === undefined)
             {
                 result = '';
             }
-          else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
+        /* else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
                 result = input.value;
-                }
+                }*/
               
                 result = eval(result);
                 ans = 0;
