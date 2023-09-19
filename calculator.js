@@ -19,9 +19,9 @@ buttons.forEach(button => {
             {
                 result = '';
             }
-        /* else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
+         else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
                 result = input.value;
-                }*/
+         }
               
                 result = eval(result);
                 ans = 0;
