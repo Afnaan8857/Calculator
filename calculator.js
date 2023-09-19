@@ -15,7 +15,7 @@ buttons.forEach(button => {
             if (result[result.length - 1] == '/' || result[result.length - 1] == '*' || result[result.length - 1] == '-' || result[result.length - 1] == '+') {
                 result = result.substring(0, result.length - 1);
             }
-            if(input.value == '')
+            if(result == '' && input.value == '')
             {
                 result = '';
             }
