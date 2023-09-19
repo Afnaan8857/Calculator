@@ -1,4 +1,6 @@
-   alert('Hello');
+   window.addEventListener('load',() =>{
+      alert("Hello");
+   });
 let b, c, st = '', ans = 0, result = '';
 let input = document.getElementById('input');
 let all = document.querySelectorAll('.btn');
