@@ -47,6 +47,7 @@ h1{
     width: 90%;
     text-align: right;
     border-radius: 10px;
+    caret-color:transparent;
 }
 
 .allbtn {
