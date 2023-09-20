@@ -28,6 +28,10 @@ buttons.forEach(button => {
             if (result.includes('+') || result.includes('-') || result.includes('*') || result.includes('/'))
                 {
                     result = eval(result);
+                    if(result % 1 != 0)
+                    {
+                        result = result.toFixed(3);
+                    }
                 ans = 0;
             c = result;
             }
