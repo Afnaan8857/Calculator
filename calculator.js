@@ -27,7 +27,7 @@ buttons.forEach(button => {
          }
               
                 result = eval(result);
-            if (result.includes('+') || result.includes('-') || result.includes('*') || result.includes('/')
+            if (result.includes('+') || result.includes('-') || result.includes('*') || result.includes('/'))
                 {
                 ans = 0;
             c = result;
