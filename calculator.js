@@ -8,7 +8,7 @@ let buttons = Array.from(all);
 buttons.forEach(button => {
     button.addEventListener('click', (btn) => {
         b = btn.target.innerHTML;
-        if (input.value == '') {
+        if (input.innerHTML == '') {
             result = '';
         }
         
@@ -16,12 +16,12 @@ buttons.forEach(button => {
             if (result[result.length - 1] == '/' || result[result.length - 1] == '*' || result[result.length - 1] == '-' || result[result.length - 1] == '+') {
                 result = result.substring(0, result.length - 1);
             }
-            if(input.value === undefined || result === undefined)
+            if(input.innerHTML === undefined || result === undefined)
             {
                 result = '0';
             }
          else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
-                result = input.value;
+                result = input.innerHTML;
          }
               
                
@@ -95,6 +95,6 @@ buttons.forEach(button => {
             result = result + b;
             c = result;
         }
-        input.value = result;
+        input.innerHTML = result;
     });
 });
