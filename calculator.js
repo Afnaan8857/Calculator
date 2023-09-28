@@ -2,13 +2,13 @@
 let b, c, st = '', ans = 0, result = '';
 let input = document.getElementById('input');
 let all = document.querySelectorAll('.btn');
-
+  alert('done');
 let buttons = Array.from(all);
 
 buttons.forEach(button => {
     button.addEventListener('click', (btn) => {
         b = btn.target.innerHTML;
-         alert(input.innerHTML.length);
+        
         if (input.innerHTML == '') {
             result = '';
         }
@@ -55,6 +55,10 @@ buttons.forEach(button => {
             ans = 1;
         }
         else {
+              if(input.innerHTML.length =>13)
+        {
+            b.preventDefault();
+        }
             if (b == '-' || b == '*' || b == '+' || b == '/') {
                 if (result == '') {
                     result = '0';
