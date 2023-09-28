@@ -2,7 +2,9 @@
 let b, c, st = '', ans = 0, result = '';
 let input = document.getElementById('input');
 let all = document.querySelectorAll('.btn');
-  alert('done');
+  window.addEventListener('load', ()=> {
+       alert('Hello');
+  });
 let buttons = Array.from(all);
 
 buttons.forEach(button => {
