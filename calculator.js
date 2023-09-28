@@ -8,6 +8,7 @@ let buttons = Array.from(all);
 buttons.forEach(button => {
     button.addEventListener('click', (btn) => {
         b = btn.target.innerHTML;
+         alert(input.innerHTML.length);
         if (input.innerHTML == '') {
             result = '';
         }
