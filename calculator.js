@@ -3,7 +3,7 @@ let b, c, st = '', ans = 0, result = '';
 let input = document.getElementById('input');
 let all = document.querySelectorAll('.btn');
   window.addEventListener('load', ()=> {
-       alert('Hello');
+       alert("Hello");
   });
 let buttons = Array.from(all);
 
