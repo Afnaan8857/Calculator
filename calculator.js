@@ -2,16 +2,13 @@
 let b, c, st = '', ans = 0, result = '';
 let input = document.getElementById('input');
 let all = document.querySelectorAll('.btn');
-  window.addEventListener('load', ()=> {
-       alert("Hello");
-  });
 let buttons = Array.from(all);
 
 buttons.forEach(button => {
     button.addEventListener('click', (btn) => {
         b = btn.target.innerHTML;
         
-        if (input.innerHTML == '') {
+        if (input.value == '') {
             result = '';
         }
         
@@ -19,12 +16,12 @@ buttons.forEach(button => {
             if (result[result.length - 1] == '/' || result[result.length - 1] == '*' || result[result.length - 1] == '-' || result[result.length - 1] == '+') {
                 result = result.substring(0, result.length - 1);
             }
-            if(input.innerHTML === undefined || result === undefined)
+            if(input.value === undefined || result === undefined)
             {
                 result = '0';
             }
          else if (!result.includes('+') && !result.includes('-') && !result.includes('*') && !result.includes('/')) {
-                result = input.innerHTML;
+                result = input.value;
          }
               
                
@@ -57,10 +54,6 @@ buttons.forEach(button => {
             ans = 1;
         }
         else {
-              if(input.innerHTML.length >= 13)
-        {
-            b.preventDefault();
-        }
             if (b == '-' || b == '*' || b == '+' || b == '/') {
                 if (result == '') {
                     result = '0';
@@ -102,6 +95,6 @@ buttons.forEach(button => {
             result = result + b;
             c = result;
         }
-        input.innerHTML = result;
+        input.value = result;
     });
 });
