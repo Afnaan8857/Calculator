@@ -57,7 +57,7 @@ buttons.forEach(button => {
             ans = 1;
         }
         else {
-              if(input.innerHTML.length =>13)
+              if(input.innerHTML.length >= 13)
         {
             b.preventDefault();
         }
