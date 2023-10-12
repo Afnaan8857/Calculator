@@ -45,7 +45,8 @@ h1{
     font-size: 35px;
     height: 50px;
     width: 90%;
-     direction:left;
+     direction:right;
+      
     border-radius: 10px;
     caret-color:transparent;
 }
