@@ -46,7 +46,9 @@ h1{
     height: 50px;
     width: 90%;
      direction:rtl;
-      text-align:right;
+      display:flex;
+         justify-content:center;
+       align-items:right;
     border-radius: 10px;
     caret-color:transparent;
 }
