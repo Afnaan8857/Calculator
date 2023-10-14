@@ -46,7 +46,7 @@ h1{
     height: 50px;
     width: 90%;
      direction:rtl;
-      
+      text-align:right;
     border-radius: 10px;
     caret-color:transparent;
 }
